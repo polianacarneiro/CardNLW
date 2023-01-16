@@ -1,0 +1,59 @@
+* body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body * {
+    font-family: "Roboto";
+}
+
+body {
+    background: linear-gradient(
+        150.79deg,
+        #0F2B05,
+        #000000 );
+    height: 100vh;
+}
+
+header {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.Card { 
+    display: inline-block;
+    width: 380px;
+    height: 508px;
+
+    background-image: url(./ASSETS/bg-explorer.svg);
+    
+}
+
+.Card > img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 4px solid yellowgreen;
+    margin-top: 115px;
+
+}
+
+.info {
+    margin-top: 110px;
+    color: white;
+    margin-left: 70px;
+    text-align: left;
+
+}
+
+.info h1 {
+    font-size: 18px;
+    line-height: 10px;
+}
+
+.info p {
+    font-size: 14px;
+    line-height: 10px;
+}
